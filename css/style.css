@@ -1,0 +1,234 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-collor: #757575;
+  --accent-text-color: #2196F3;
+  --accent2-text-color: #FFFFFF;
+  --background-accent: #2F303A;
+  --background2-accent: #F5F4FA;
+  --logo-color: #000000;
+}
+
+/* font main background: #212121; */
+/* font main 2 background: #757575; */
+/* font aсcent background: 2196F3#--; */
+/* font aсcent 2 background: #FFFFFF; */
+/* hero background color: #2F303A; */
+/* main background color: #FFFFFF; */
+/* section team background color F5F4FA */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  background: var(--accent2-text-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* -------------------------header--------------------*/
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-color);
+}
+
+.header-logo>span {
+  color: var(--accent-text-color);
+}
+
+.header-nav {}
+
+.header-list {}
+
+.header-item {}
+
+.header-link,
+.header-contant {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-collor);
+}
+
+.header-link {
+  color: var(--primary-text-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-contant:focus,
+.header-contant:hover {
+  color: var(--accent-text-color)
+}
+
+/*-------------------------hero---------------------*/
+.hero {
+  background: var(--background-accent);
+}
+
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--accent2-text-color);
+}
+
+.hero-btn {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--accent2-text-color);
+  background: var(--accent-text-color);
+  cursor: pointer;
+}
+
+/* -----------------------main part ----------------*/
+
+.portfolio-btn {
+
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background-color: var(--background2-accent);
+
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--accent2-text-color);
+  background-color: var(--accent-text-color);
+}
+
+.portfolio-prj-h {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color)
+}
+
+.pref {}
+
+.pref-list {}
+
+.pref-item-h {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.pref-item-p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #757575;
+}
+
+.portfolio-prj-p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--secondary-text-collor);
+}
+
+.ocupation {}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.ocupation-list {}
+
+.ocupation-item {}
+
+.team {}
+
+.team-list {}
+
+.team-item {}
+
+.team-item-img {}
+
+.team-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--secondary-text-collor);
+}
+
+/*--------------------footer----------------------------*/
+
+.footer {
+  background: var(--background-accent)
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent2-text-color)
+}
+
+.footer-logo>span {
+  color: var(--accent-text-color)
+}
+
+.footer-common {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-map-link {
+  color: var(--accent2-text-color);
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  /* 1 */
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  /* 2 */
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
