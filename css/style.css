@@ -60,8 +60,8 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   outline: 1px solid tomato;
-  padding-bottom: 47px;
-  padding-top: 47px;
+  padding-bottom: 0px;
+  padding-top: 94px;
 }
 
 .list {
@@ -76,14 +76,20 @@ body {
 }
 
 /* -------------------------header--------------------*/
+.header{
+    padding-top: 24px;
+      padding-bottom: 25px;
+}
+
 .header .container {
-  padding-top: 24px;
-  padding-bottom: 25px;
+
 }
 
 .head-cont {
   display: flex;
   align-items: center;
+
+  padding-top: 0px;
 }
 
 .header-logo {
@@ -154,16 +160,13 @@ body {
 /*-------------------------hero---------------------*/
 .hero {
   background: var(--background-accent);
-}
-
-.hero-content {
-  width: 1600px;
-  padding: 200px 452px;
+    background-image: url(../images/);
+    padding: 200px 0px;
 }
 
 .hero-text {
   margin-bottom: var(--tipical-margin);
-
+text-align: justify;
   color: var(--accent2-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -354,7 +357,9 @@ body {
 .portfolio-text {
   padding: 20px 24px;
   overflow: hidden;
+  
 }
+
 
 .portfolio-prj-h {
   color: var(--primary-text-color);
