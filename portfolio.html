@@ -8,7 +8,9 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,7 +19,7 @@
 
 <body>
     <header class="header">
-        <div class="container head-cont">
+        <div class="container head-wrapper">
             <nav class="header-nav">
                 <a href="index.html" class="header-logo link"><span>Web</span>Studio</a>
                 <ul class="header-list list">
@@ -38,115 +40,113 @@
     <main>
         <section class="portfolio">
             <div class="container">
-                <div class="port-content">
-                    <ul class="list">
-                        <li><button class="portfolio-btn" type="button">Все</button></li>
-                        <li><button class="portfolio-btn" type="button">Веб-сайты</button></li>
-                        <li><button class="portfolio-btn" type="button">Приложения</button></li>
-                        <li><button class="portfolio-btn" type="button">Дизайн</button></li>
-                        <li><button class="portfolio-btn" type="button">Маркетинг</button></li>
+            
+                    <div class="port-content">
+                        <ul class="list">
+                            <li><button class="portfolio-btn" type="button">Все</button></li>
+                            <li><button class="portfolio-btn" type="button">Веб-сайты</button></li>
+                            <li><button class="portfolio-btn" type="button">Приложения</button></li>
+                            <li><button class="portfolio-btn" type="button">Дизайн</button></li>
+                            <li><button class="portfolio-btn" type="button">Маркетинг</button></li>
+                        </ul>
+                    </div>
+
+                    <h1 class="sr-only">наши проекты</h1>
+                    <ul class="portfolio-list list">
+                        <li class="port-list-item"> <a class="link" href="">
+                                <article class="portfolio-card">
+                                    <img src="./images/techno_1.jpg" alt="технокряк_веб-сайт" width="">
+                                    <div class="portfolio-text">
+                                        <h2 class="portfolio-prj-h">Технокряк</h2>
+                                        <p class="portfolio-prj-p">Веб-сайт</p>
+                                    </div>
+                                </article>
+                            </a>
+
+                        </li>
+                        <li class="port-list-item"> <a class="link" href="">
+                                <article class="portfolio-card">
+                                    <img src="./images/poster_2.jpg" alt="Постер Новый Орлеан" width="">
+                                    <div class="portfolio-text">
+                                        <h2 class="portfolio-prj-h">Постер New Orlean vs Golden Star</h2>
+                                        <p class="portfolio-prj-p">Дизайн</p>
+                                    </div>
+                                </article>
+                            </a>
+                        </li>
+                        <li class="port-list-item"> <a class="link" href="">
+                                <article class="portfolio-card">
+                                    <img src="./images/restaurant_3.jpg" alt="Рыбный ресторан Seafood" width="">
+                                    <div class="portfolio-text">
+                                        <h2 class="portfolio-prj-h">Ресторан Seafood</h2>
+                                        <p class="portfolio-prj-p">Приложение</p>
+                                    </div>
+                                </article>
+                            </a>
+                        </li>
+                        <li class="port-list-item"> <a class="link" href="">
+                                <article class="portfolio-card">
+                                    <img src="./images/project_4.jpg" alt="фото проект Prime" width="">
+                                    <div class="portfolio-text">
+                                        <h2 class="portfolio-prj-h">Проект Prime</h2>
+                                        <p class="portfolio-prj-p">Маркетинг</p>
+                                    </div>
+                                </article>
+                            </a>
+                        </li>
+                        <li class="port-list-item"> <a class="link" href="">
+                                <article class="portfolio-card">
+                                    <img src="./images/project_boxes_5.jpg" alt="фото проект Boxes" width="">
+                                    <div class="portfolio-text">
+                                        <h2 class="portfolio-prj-h">Проект Boxes</h2>
+                                        <p class="portfolio-prj-p">Приложение</p>
+                                    </div>
+                                </article>
+                            </a>
+                        </li>
+                        <li class="port-list-item"> <a class="link" href="">
+                                <article class="portfolio-card">
+                                    <img src="./images/inspiration_6.jpg" alt="фото сайт Inspiration" width="">
+                                    <div class="portfolio-text">
+                                        <h2 class="portfolio-prj-h">Inspiration has no Borders</h2>
+                                        <p class="portfolio-prj-p">Веб-сайт</p>
+                                    </div>
+                                </article>
+                            </a>
+                        </li>
+                        <li class="port-list-item"> <a class="link" href="">
+                                <article class="portfolio-card">
+                                    <img src="./images/journal_7.jpg" alt="фото проект Limited Edition" width="">
+                                    <div class="portfolio-text">
+                                        <h2 class="portfolio-prj-h">Издание Limited Edition</h2>
+                                        <p class="portfolio-prj-p">Дизайн</p>
+                                    </div>
+                                </article>
+                            </a>
+                        </li>
+                        <li class="port-list-item"> <a class="link" href="">
+                                <article class="portfolio-card">
+                                    <img src="./images/project_lab_8.jpg" alt="фото проект LAB" width="">
+                                    <div class="portfolio-text">
+                                        <h2 class="portfolio-prj-h">Проект LAB</h2>
+                                        <p class="portfolio-prj-p">Маркетинг</p>
+                                    </div>
+                                </article>
+                            </a>
+                        </li>
+                        <li class="port-list-item"> <a class="link" href="">
+                                <article class="portfolio-card">
+                                    <img src="./images/growing_9.jpg" alt="фото приложение Growing" width="">
+                                    <div class="portfolio-text">
+                                        <h2 class="portfolio-prj-h">Growing Business</h2>
+                                        <p class="portfolio-prj-p">Приложение</p>
+                                    </div>
+                                </article>
+                            </a>
+                        </li>
                     </ul>
-                </div>
 
-                <h1 class="sr-only">наши проекты</h1>
-                <ul class="portfolio-list list">
-                    <li> <a class="link" href="">
-                            <article class="portfolio-card">
-                                <img src="./images/techno_1.jpg" alt="технокряк_веб-сайт" width="370">
-                                <div class="portfolio-text">
-                                    <h2 class="portfolio-prj-h">Технокряк</h2>
-                                    <p class="portfolio-prj-p">Веб-сайт</p>
-                                </div>
-                            </article>
-                        </a>
-
-                    </li>
-                    <li> <a class="link" href="">
-                            <article class="portfolio-card">
-                                <img src="./images/restaurant_3.jpg" alt="Постер Новый Орлеан" width="370" height="294">
-                                <div class="portfolio-text">
-                                    <h2 class="portfolio-prj-h">Постер New Orlean vs Golden Star</h2>
-                                    <p class="portfolio-prj-p">Дизайн</p>
-                                </div>
-                            </article>
-                        </a>
-                    </li>
-                    <li> <a class="link" href="">
-                            <article class="portfolio-card">
-                                <img src="./images/project_4.jpg" alt="Рыбный ресторан Seafood" width="370"
-                                    height="294">
-                                <div class="portfolio-text">
-                                    <h2 class="portfolio-prj-h">Ресторан Seafood</h2>
-                                    <p class="portfolio-prj-p">Приложение</p>
-                                </div>
-                            </article>
-                        </a>
-                    </li>
-                    <li> <a class="link" href="">
-                            <article class="portfolio-card">
-                                <img src="./images/project_4.jpg" alt="фото проект Prime" width="370" height="294">
-                                <div class="portfolio-text">
-                                    <h2 class="portfolio-prj-h">Проект Prime</h2>
-                                    <p class="portfolio-prj-p">Маркетинг</p>
-                                </div>
-                            </article>
-                        </a>
-                    </li>
-                    <li> <a class="link" href="">
-                            <article class="portfolio-card">
-                                <img src="./images/project_boxes_5.jpg" alt="фото проект Boxes" width="370"
-                                    height="294">
-                                <div class="portfolio-text">
-                                    <h2 class="portfolio-prj-h">Проект Boxes</h2>
-                                    <p class="portfolio-prj-p">Приложение</p>
-                                </div>
-                            </article>
-                        </a>
-                    </li>
-                    <li> <a class="link" href="">
-                            <article class="portfolio-card">
-                                <img src="./images/inspiration_6.jpg" alt="фото сайт Inspiration" width="370"
-                                    height="294">
-                                <div class="portfolio-text">
-                                    <h2 class="portfolio-prj-h">Inspiration has no Borders</h2>
-                                    <p class="portfolio-prj-p">Веб-сайт</p>
-                                </div>
-                            </article>
-                        </a>
-                    </li>
-                    <li> <a class="link" href="">
-                            <article class="portfolio-card">
-                                <img src="./images/journal_7.jpg" alt="фото проект Limited Edition" width="370"
-                                    height="294">
-                                <div class="portfolio-text">
-                                    <h2 class="portfolio-prj-h">Издание Limited Edition</h2>
-                                    <p class="portfolio-prj-p">Дизайн</p>
-                                </div>
-                            </article>
-                        </a>
-                    </li>
-                    <li> <a class="link" href="">
-                            <article class="portfolio-card">
-                                <img src="./images/project_lab_8.jpg" alt="фото проект LAB" width="370" height="294">
-                                <div class="portfolio-text">
-                                    <h2 class="portfolio-prj-h">Проект LAB</h2>
-                                    <p class="portfolio-prj-p">Маркетинг</p>
-                                </div>
-                            </article>
-                        </a>
-                    </li>
-                    <li> <a class="link" href="">
-                            <article class="portfolio-card">
-                                <img src="./images/growing_9.jpg" alt="фото приложение Growing" width="370"
-                                    height="294">
-                                <div class="portfolio-text">
-                                    <h2 class="portfolio-prj-h">Growing Business</h2>
-                                    <p class="portfolio-prj-p">Приложение</p>
-                                </div>
-                            </article>
-                        </a>
-                    </li>
-                </ul>
+                
             </div>
         </section>
     </main>
